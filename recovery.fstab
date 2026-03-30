@@ -1,0 +1,11 @@
+/system          ext4    /dev/block/platform/1021c000.rksdmmc/by-name/system
+/cache           ext4    /dev/block/platform/1021c000.rksdmmc/by-name/cache
+/metadata        ext4    /dev/block/platform/1021c000.rksdmmc/by-name/metadata
+/data            ext4    /dev/block/platform/1021c000.rksdmmc/by-name/userdata   flags=encryptable=footer
+/boot            emmc    /dev/block/platform/1021c000.rksdmmc/by-name/boot
+/recovery        emmc    /dev/block/platform/1021c000.rksdmmc/by-name/recovery
+/misc            emmc    /dev/block/platform/1021c000.rksdmmc/by-name/misc
+/uboot           emmc    /dev/block/platform/1021c000.rksdmmc/by-name/uboot
+/resource        emmc    /dev/block/platform/1021c000.rksdmmc/by-name/resource   flags=display="Resource";backup=1
+/kernel          emmc    /dev/block/platform/1021c000.rksdmmc/by-name/kernel     flags=display="Kernel";backup=1
+/external_sd     vfat    /dev/block/mmcblk0p1    /dev/block/mmcblk0              flags=display="MicroSD";storage;wipeingui;removable
